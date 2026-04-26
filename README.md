@@ -52,20 +52,20 @@ Works as a standard HID gamepad on Windows PC!
 - NimBLE-Arduino by h2zero
 
 ## Features
-- ✅ 8 face buttons
-- ✅ D-pad support
-- ✅ 2 analog joysticks
-- ✅ Joystick click buttons (L3/R3)
-- ✅ 4 analog axes
-- ✅ Deadzone on joysticks
-- ✅ Bluetooth BLE connection
-- ✅ Works as standard HID gamepad
+-  8 face buttons
+-  D-pad support
+-  2 analog joysticks
+-  Joystick click buttons (L3/R3)
+-  4 analog axes
+-  Deadzone on joysticks
+-  Bluetooth BLE connection
+-  Works as standard HID gamepad
 
 ## Games Tested
-- ✅ HexGL (Browser)
-- ✅ Chrome Dino (Browser)
-- ✅ Trackmania (Epic Games)
-- ✅ Forza Horizon 5
+-  HexGL (Browser)
+-  Chrome Dino (Browser)
+-  Trackmania (Epic Games)
+-  Forza Horizon 5
 
 ## How It Works
 ESP32 reads button and joystick inputs
