@@ -72,10 +72,10 @@ Works as a standard HID gamepad on Windows PC!
 - Print only on change (no spam in Serial Monitor)
 
 ## Games Tested
-- ✅ HexGL (Browser)
-- ✅ Chrome Dino (Browser)
-- ✅ Trackmania (Epic Games)
-- ✅ Forza Horizon 5
+- HexGL (Browser)
+- Chrome Dino (Browser)
+- Trackmania (Epic Games)
+- Forza Horizon 5
 
 ## How It Works
 ESP32 reads button and joystick inputs
@@ -85,22 +85,9 @@ needed — plug and play!
 
 ## Wiring Rules
 - All buttons: one leg to GPIO, other leg to GND
-- Joysticks VCC: 3.3V (NOT 5V!)
+- Joysticks VCC: 3.3V 
 - Joysticks GND: GND
 - No external resistors needed (uses internal pullup)
 
-## Controller Layout
-ESP32 Gamepad
-┌─────────────────────────────────┐
-│                                 │
-│      [L1]           [R1]        │
-│                                 │
-│  ↑                      △       │
-│ ← →    ( SEL  STA )   □   ○    │
-│  ↓                      ✕       │
-│                                 │
-│   (JOY1=Move)     (JOY2=Camera) │
-│                                 │
-└─────────────────────────────────┘
 ## Author
 Vaibhav Pachori
