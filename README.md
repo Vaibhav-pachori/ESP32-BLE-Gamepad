@@ -59,6 +59,16 @@ Works as a standard HID gamepad on Windows PC!
 - ESP32-BLE-Gamepad by lemmingDev
 - NimBLE-Arduino by h2zero
 
+## How to Use
+1. Clone this repository
+2. Install Arduino IDE
+3. Install ESP32 Core 2.0.17
+4. Install required libraries
+5. Upload GamePad.ino to ESP32
+6. Pair ESP32 Gamepad via Bluetooth
+7. Open joy.cpl to verify
+8. Play any gamepad supported game!
+
 ## Features
 - 8 face buttons
 - D-pad support
@@ -88,6 +98,16 @@ needed — plug and play!
 - Joysticks VCC: 3.3V 
 - Joysticks GND: GND
 - No external resistors needed (uses internal pullup)
+
+## Troubleshooting
+| Problem | Solution |
+|---------|----------|
+| Gamepad not appearing in Bluetooth | Reset ESP32 and scan again |
+| Buttons always showing 1 | Avoid GPIO 0, 2, 12, 15 (strapping pins) |
+| Joystick drifting | Increase deadzone value in code |
+| joy.cpl not working | Remove device, restart PC, pair fresh |
+| Code not uploading | Check COM port in Tools → Port |
+| Compilation error | Make sure ESP32 Core is 2.0.17 |
 
 ## Author
 Vaibhav Pachori
